@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --couleur-principale: #1a3a8f ;
+    --couleur-secondaire: #3d5fc4 ;
+    --couleur-texte: #1a1a1a ;
+    --couleur-fond: #ffffff ;
+    --couleur-fond-alt: #f4f6fb;
+}
+
+
+.logo-placeholder {
+    width: 120px;
+    height: 60px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
