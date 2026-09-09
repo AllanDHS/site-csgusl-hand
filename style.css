@@ -251,3 +251,92 @@ nav a:hover {
     background-color: var(--couleur-secondaire);
     color: white;
 }
+
+.partenaires {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: var(--couleur-fond);
+}
+
+.partenaires h2 {
+    font-family: var(--font-titre);
+    font-size: 2rem;
+    color: var(--couleur-principale);
+    margin-bottom: 2rem;
+}
+
+.partenaires-liste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.partenaires-liste img {
+    max-width: 120px;
+    max-height: 60px;
+    object-fit: contain;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--couleur-principale);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--couleur-secondaire);
+}
+
+footer p {
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+/* Tablette */
+@media (max-width: 768px) { }
+
+/* Mobile */
+@media (max-width: 480px) { }
+
+
+@media (max-width: 768px) {
+    .stats ul,
+    .actus-liste,
+    .equipes ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .stats ul,
+    .actus-liste,
+    .equipes ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem; /* à ajuster selon ta taille de base */
+    }
+}
