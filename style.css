@@ -205,3 +205,49 @@ nav a:hover {
     color: #8a97b8;
     font-size: 0.9rem;
 }
+
+.equipes{
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: var(--couleur-fond-alt);
+}
+
+.equipes h2{
+    font-family: var(--font-titre);
+    font-size: 2rem;
+    color: var(--couleur-principale);
+    margin-bottom: 2rem;
+}
+
+.equipes ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    list-style: none;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.equipes li {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.equipes a {
+    display: block;
+    background-color: white;
+    padding: 1.5rem 1rem;
+    border: 2px solid var(--couleur-secondaire);
+    border-radius: 8px;
+    font-weight: 600;
+    color: var(--couleur-principale);
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.equipes a:hover {
+    background-color: var(--couleur-secondaire);
+    color: white;
+}
